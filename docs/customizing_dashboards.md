@@ -119,6 +119,14 @@ Or, to display a distance in kilometers:
   )
 ```
 
+**Field::DateTime**
+
+`:format` - Specify what format, using `strftime` you would like `DateTime`
+objects to display as.
+
+`:timezone` - Specify which timezone `Date` and `DateTime` objects are based
+in.
+
 **Field::Select**
 
 `:collection` - Specify the array or range to select from.  Defaults to `[]`.
